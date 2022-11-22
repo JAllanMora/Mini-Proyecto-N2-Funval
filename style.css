@@ -1,0 +1,241 @@
+*{
+ background-color:rgb(196, 228, 231);
+color: rgb(62, 99, 100);
+font-family: 'Roboto', sans-serif;
+font-family: 'Space Mono', monospace;
+padding: 0;
+margin: 0;
+
+}
+.titulo{
+    background-color:rgb(196, 228, 231);
+    text-align: center;
+    
+}
+h1{
+    font-size: 24px;
+    letter-spacing: 5px; 
+    padding: 20px;
+}
+.calculadoraa{
+    height: 650px;
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+    border-radius: 15px;
+    padding: 32px;
+}
+.calculadora1{
+    background-color: hsl(0, 0%, 100%);
+}
+.calculadora1_bill_label{
+    background-color: hsl(0, 0%, 100%);
+    display: block;
+    margin-bottom: 8px;
+
+}
+.calculadora1_bill{
+    background-color: hsl(0, 0%, 100%);
+    display: block; 
+    
+}
+.calculadora1_bill{
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+    background-color:rgb(243, 248, 251);
+    text-align: right;
+    border-radius: 5px;
+    border: none;
+}
+.calculadora1_bill:hover{
+    cursor: pointer;   
+}
+.calculadora1_bill:focus{
+    outline: none;
+    border: 2px solid rgb(87, 167, 157);  
+}
+.dolar{
+    position: absolute;
+    margin:15px;
+    width: 12px;
+    background-color: rgb(243, 248, 251); 
+}
+h4{
+    background-color: hsl(0, 0%, 100%);
+    padding: 5px;
+    padding-top: 15px;
+    font-size: 15px;}
+.porcentajes{
+    background-color: hsl(0, 0%, 100%);
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.button_porcentajes{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(0, 71, 75);
+    color:rgb(240, 251, 251) ;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.button_porcentajes:hover{
+    cursor: pointer; 
+}
+.custom{
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+    background-color:rgb(243, 248, 251);
+    text-align: right;
+    border-radius: 5px;
+    border: none;
+}
+.custom:hover{
+    cursor: pointer; 
+}
+.custom:focus{
+    outline: none;
+    border: 2px solid rgb(87, 167, 157);  
+}
+
+.calculadora1_people_label{
+    background-color: hsl(0, 0%, 100%);
+    display: block;
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+.calculadora1_people{
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+    background-color:rgb(243, 248, 251);
+    text-align: right;
+    border-radius: 5px;
+    border: none;
+   
+}
+.persona{
+    position: absolute;
+    margin:12px;
+    width: 10px;
+    background-color: rgb(243, 248, 251); 
+}
+.calculadora2{
+    background-color: rgb(0, 71, 75);
+    margin-top: 25px;
+    border-radius: 15px;
+    padding: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.resultados{
+    background-color: rgb(0, 71, 75);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+  
+}
+.resultados_t{
+    
+    background-color: rgb(0, 71, 75);
+    color: hsl(0, 0%, 100%);
+    padding: 5px;
+}
+.resultados-t{
+    
+    background-color: rgb(0, 71, 75);
+    color: rgb(74, 125, 129);
+    font-size: 12px;
+    padding: 5px;
+}
+.resultados_to{
+   
+    background-color: rgb(0, 71, 75);
+    color: hsl(0, 0%, 100%);
+    padding: 5px;
+}
+.resultados-to{
+    
+    background-color: rgb(0, 71, 75);
+    color: rgb(74, 125, 129);
+    font-size: 12px;
+    padding: 5px;
+}
+.resultados-valores{
+    
+    background-color: rgb(0, 71, 75);
+    color: rgb(38, 194, 173);
+    text-align: right;
+    height: 51px;
+    padding: 5px;
+}
+.resultados-tvalores{
+    
+    background-color: rgb(0, 71, 75);
+    color: rgb(38, 194, 173);
+    text-align: right;
+    height: 51px;
+    padding: 5px;
+}
+.Reset{
+    background-color:rgb(38, 194, 173) ;
+   height: 50px;
+   margin-top: 20px;
+   border-radius: 5px;
+   font-size: 17px;
+}
+.Reset:hover{
+    cursor: pointer;
+    background-color:rgb(159, 232, 223);
+}
+button:hover{
+    cursor: pointer;
+}
+.button_porcentajesselec{
+    background-color: rgb(38, 194, 173) ;
+    color:rgb(51, 111, 100) ;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px
+}
+@media (min-width:900px){
+   
+    h1{
+        padding: 30px;
+    }
+    .calculadoraa{
+      
+        padding-bottom: 150px;
+        width: 900px;
+        height: 300px;
+        display: flex;
+        gap: 50px;
+        margin: 70px 210px ;
+    }
+    .calculadora1{
+      flex: 1;
+    }
+    .calculadora2{
+        flex: 1;
+        height: 300px;
+        
+    }
+    .porcentajes{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .button_porcentajes{
+        width: 120px;
+    height: 50px;
+    }
+    .resultados-valores{
+        font-size: 35px;
+    }
+}
+   
+
+

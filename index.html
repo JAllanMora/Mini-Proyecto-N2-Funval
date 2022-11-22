@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Tip calculator app</title>
+    </head>
+  <body>
+       <div class="titulo">
+          <h1> SPLIT <br>
+          TTER</h1>
+          </div>
+    <div class="calculadoraa">
+      <div class="calculadora1"> 
+        <label for="bill" class="calculadora1_bill_label"> Bill <br></label>
+        <img class="dolar" src="./icon-dollar.svg">
+        <input  id= "bill" type="number" value="100" class="calculadora1_bill">
+        <h4>Select Tip %</h4>
+        <div class="porcentajes">
+          <button class="button_porcentajes">5%</button>
+          <button class="button_porcentajesselec">10%</button>
+          <button class="button_porcentajes">15%</button>
+          <button class="button_porcentajes">25%</button>
+          <button class="button_porcentajes">50%</button>
+          <input class="custom" type="number" placeholder="Custom">
+         </div>
+         <label for="people" class="calculadora1_people_label"> Number of people <span class=""></span> </label>
+         <img class="persona" src="./icon-person.svg">
+        <input id= "people" type="number" value="1" class="calculadora1_people">
+
+      </div>
+  <div class="calculadora2">
+      <div class="resultados">
+        <div >
+       <p class="resultados_t">Tip Amount</p>
+       <p class="resultados-t">/ person</p>
+      </div>
+      <div> 
+        <p class="resultados-valores">  0</p>
+      </div>
+    <div>
+      <p class="resultados_to">Total</p>
+      <p class="resultados-to">/ person</p>
+    </div>
+    <div> 
+      <p class="resultados-tvalores"> 0 </p>
+    </div>
+    
+</div>
+<button class="Reset"> RESET </button>
+</div>
+    </div>
+ <script src="./main.js"></script>
+    </body>
+</html>
